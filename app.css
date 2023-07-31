@@ -1,0 +1,10 @@
+h2 {
+  color: blueviolet;
+}
+
+.paragrafOzellik {
+  color: rgb(126, 83, 83);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+}
