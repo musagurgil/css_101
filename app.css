@@ -35,3 +35,72 @@ h2 {
   padding-top: 5px;
   padding-left: 5px;
 }
+
+.kutu1 {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  display: inline-block;
+}
+
+.kutu2 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.textStyle {
+  color: white;
+  background-color: darkgreen;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  text-decoration: overline;
+  word-spacing: 3px;
+}
+
+/**{ Bütün verileri etkiler
+  background-color: aqua; 
+}*/
+
+/*p{bütün p elementlerini etkiler
+  background-color: red; 
+}*/
+
+/*h1,h3{ h1 ve h3 elementlerini etkiler
+  color: blueviolet;
+}*/
+
+/*div p { div içerisindeki p elementlerini etkiler
+  background-color: cadetblue;
+  color: blue;
+}*/
+
+/*div > p { Parenti div olan bütün p elementlerini etkiler
+  background-color: aqua;
+}*/
+
+/*div + p { Div elementinden hemen sonraki p elementini etkiler.
+  background-color: white;
+}*/
+
+/*div ~ p { Div elementinden sonraki p elementlerini etkiler.
+  background-color: yellow;
+}*/
+
+/* div > p:first-child { Parenti div olan p elementinin ilk değerini etkiler
+  color: red;
+} */
+
+/* div > p:last-child { Parenti div olan p elementinin son değerini etkiler
+  color: red;
+} */
+
+/* div > nav > a:nth-child(2) { Parenti div olan nav elementinin 3.cü  "a" değerini etkiler
+  background-color: red;
+} */
