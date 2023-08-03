@@ -104,3 +104,111 @@ h2 {
 /* div > nav > a:nth-child(2) { Parenti div olan nav elementinin 3.cü  "a" değerini etkiler
   background-color: red;
 } */
+
+/* a:link= ilk hali.
+a:hover= üzerine gelindiğinde
+a:active= tıklanıldığında
+a:visited= ziyaret edildikten sonra */
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: brown;
+}
+
+a:visited {
+  color: darkolivegreen;
+}
+
+.list {
+  list-style-type: decimal-leading-zero;
+}
+
+table {
+  width: 100%;
+}
+#customers,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#customers th {
+  background-color: green;
+  color: white;
+}
+
+#customers tr:nth-child(even) {
+  /*even 1-3-5 gibi sıralı gider.*/
+  background-color: beige;
+}
+
+#customers tr:hover {
+  background-color: aquamarine;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  width: 100%;
+}
+
+.overflow {
+  background-color: lightblue;
+  height: 75px;
+  width: 50%;
+  overflow: auto;
+}
+
+.navigationBar {
+  list-style-type: none;
+  width: 100%;
+  background-color: #bbe3f9;
+}
+ul li {
+  display: inline-block;
+  width: 175px;
+  padding: 15px;
+  margin-left: -40px;
+  margin-right: 25px;
+  background-color: #bbe3f9;
+}
+ul li:hover {
+  background-color: #004d9d;
+  transition: 0.7s;
+}
+ul li a {
+  text-decoration: none;
+  color: #bbe3f9;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+i {
+  font-size: 20px;
+  color: #00b0eb;
+  margin-right: 10px;
+}
+
+#dpSelectorsContent {
+  z-index: 1;
+  position: absolute;
+  display: none;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.selectorsView:hover #dpSelectorsContent {
+  display: block;
+}
